@@ -15,5 +15,5 @@
   try{
     recursiveFn()
   }catch(err){
-    alert(`i=${i}error:${err})
+    alert(`i=${i}error:${err}`)
   }
