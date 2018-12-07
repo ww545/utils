@@ -4,3 +4,16 @@
 3、react常用函数
 4、本地缓存封装
 5、其他插件工具类
+
+
+```javasript
+  var i = 0;
+  function recursiveFn () {
+    i++;
+    recursiveFn()
+  }
+  try{
+  
+  }catch(err){
+    alert(`i=${i}error:${err})
+  }
